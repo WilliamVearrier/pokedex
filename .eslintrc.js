@@ -8,11 +8,11 @@ module.exports =
       'sonarjs/no-duplicate-string': 0,
       '@typescript-eslint/no-use-before-define': 0,
       '@typescript-eslint/no-unused-vars': 0
-    },
+    }
   }) || {
     extends: [
       'react-app',
-      "react-app/jest",
+      'react-app/jest',
       'eslint:recommended',
       'plugin:react/recommended',
       'plugin:@typescript-eslint/recommended',
@@ -20,22 +20,15 @@ module.exports =
       'plugin:prettier/recommended',
       'plugin:sonarjs/recommended',
       'plugin:testing-library/react',
-      'plugin:jest-dom/recommended',
+      'plugin:jest-dom/recommended'
     ],
-    plugins: [
-      'react',
-      '@typescript-eslint',
-      'prettier',
-      'sonarjs',
-      'testing-library',
-      'jest-dom',
-    ],
+    plugins: ['react', '@typescript-eslint', 'prettier', 'sonarjs', 'testing-library', 'jest-dom'],
     env: {
       browser: true,
       jasmine: true,
       jest: true,
       node: true,
-      es6: true,
+      es6: true
     },
     rules: {
       'prettier/prettier': ['error', { singleQuote: true }],
@@ -53,10 +46,7 @@ module.exports =
       'react/jsx-boolean-value': 2,
       'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
       yoda: ['error', 'never', { exceptRange: true }],
-      'testing-library/prefer-explicit-assert': [
-        'error',
-        { assertion: 'toBeInTheDocument' },
-      ],
+      'testing-library/prefer-explicit-assert': ['error', { assertion: 'toBeInTheDocument' }],
       'testing-library/no-manual-cleanup': 1,
       'testing-library/no-render-in-setup': 1,
       'testing-library/prefer-screen-queries': 1,
@@ -64,13 +54,13 @@ module.exports =
       'testing-library/prefer-wait-for': 2,
       'testing-library/no-wait-for-snapshot': 2,
       'testing-library/no-wait-for-empty-callback': 2,
-      '@typescript-eslint/explicit-module-boundary-types': 0,
+      '@typescript-eslint/explicit-module-boundary-types': 0
     },
     settings: {
       react: {
         pragma: 'React',
-        version: 'detect',
-      },
+        version: 'detect'
+      }
     },
-    parser: '@typescript-eslint/parser',
+    parser: '@typescript-eslint/parser'
   };

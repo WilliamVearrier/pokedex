@@ -1,5 +1,5 @@
 export const strings = {
   dexNames: {
-    galar: "Galar Pokédex"
+    galar: 'Galar Pokédex'
   }
-}
+};

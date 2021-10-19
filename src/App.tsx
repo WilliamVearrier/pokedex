@@ -8,16 +8,20 @@ import DexCard from './components/dex-card/dex-card';
 
 const App = () => (
   <Body>
-    <Header>
-      {strings.dexNames.galar}
-    </Header>
+    <Header>{strings.dexNames.galar}</Header>
     <Content>
-      <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/>
-      <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/>
-      <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/>
-      <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/>
-      <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/>
-      <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/> <DexCard/>
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
+      <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard /> <DexCard />
     </Content>
   </Body>
   // <div className="App">
@@ -44,10 +48,10 @@ const Body = styled.div`
   background: #211f1f;
   color: white;
   display: grid;
-  
+
   grid-template-areas:
-    "header"
-    "content";
+    'header'
+    'content';
 
   grid-template-rows: 2em auto;
 `;
