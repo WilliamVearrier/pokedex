@@ -64,6 +64,9 @@ const Header = styled.header`
 const Content = styled.div`
   grid-area: content;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 `;
 
 export default App;
